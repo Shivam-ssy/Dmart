@@ -11,7 +11,7 @@ const Modals = ({ name, imageUrl, url, details,onClose }) => {
                                              width:"70%",
                                              height:"fit-content",
                                              background:"grey",
-                                             padding:"2em",
+                                             
                                              borderRadius:"10px"}}>
       <div className="modal-dialog " role="dialog">
         <div className="modal-content">
@@ -22,7 +22,7 @@ const Modals = ({ name, imageUrl, url, details,onClose }) => {
             </button>
           </div>
           <div className="modal-body p-md-5 position-relative">
-            <div className="d-flex  justify-content-around">
+            <div className="d-flex flex-column flex-md-row overflow-auto  justify-content-around">
             <img  src={details?.image} alt={name} style={{maxHeight:"15em",maxWidth:"10em",position:"relative"}} />
             <div className="d-flex w-75 flex-column align-items-start">
               <div><span className="fw-bold">Category: </span><span>{details?.category}</span></div>
