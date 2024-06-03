@@ -14,7 +14,7 @@ function Mynav() {
   }
   return (
     <>
-      <div className=" container-fluid border border-secondary border-end-0 border-start-0 mb-3  d-flex justify-content-between align-items-center">
+      <div className=" w-100 w-md-auto container-fluid border border-secondary border-end-0 border-start-0 mb-3  d-flex justify-content-between align-items-center">
           <h2 style={{
             fontFamily:"sarif"
           }}><span className=" text-primary">D</span>Mart</h2>
